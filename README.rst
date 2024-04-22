@@ -1,4 +1,4 @@
-frontend-template-application
+frontend-app-testbl
 #############################
 
 |license-badge| |status-badge| |ci-badge| |codecov-badge|
@@ -17,8 +17,8 @@ Getting Started
 ***************
 
 After copying the template repository, you'll want to do a find-and-replace to
-replace all instances of ``frontend-template-application`` with the name of
-your new repository.  Also edit index.html to replace "Application Template"
+replace all instances of ``frontend-app-testbl`` with the name of
+your new repository.  Also edit index.html to replace ""
 with a friendly name for this application that users will see in their browser
 tab.
 
@@ -81,7 +81,7 @@ understand your MFE, how to install it, and how to use it.
 Developing
 **********
 
-This section concerns development of ``frontend-template-application`` itself,
+This section concerns development of ``frontend-app-testbl`` itself,
 not the templated copy.
 
 It should be noted that one of the goals of this repository is for it to
@@ -98,7 +98,7 @@ Project Structure
 The source for this project is organized into nested submodules according to
 the `Feature-based Application Organization ADR`_.
 
-.. _Feature-based Application Organization ADR: https://github.com/openedx/frontend-template-application/blob/master/docs/decisions/0002-feature-based-application-organization.rst
+.. _Feature-based Application Organization ADR: https://github.com/openedx/frontend-app-testbl/blob/master/docs/decisions/0002-feature-based-application-organization.rst
 
 Build Process Notes
 ===================
@@ -129,7 +129,7 @@ channel`_.
 For anything non-trivial, the best path is to open an issue in this repository
 with as many details about the issue you are facing as you can provide.
 
-https://github.com/openedx/frontend-template-application/issues
+https://github.com/openedx/frontend-app-testbl/issues
 
 For more information about these options, see the `Getting Help`_ page.
 
@@ -174,23 +174,23 @@ The assigned maintainers for this component and other project details may be
 found in `Backstage`_. Backstage pulls this data from the ``catalog-info.yaml``
 file in this repo.
 
-.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-template-application
+.. _Backstage: https://open-edx-backstage.herokuapp.com/catalog/default/component/frontend-app-testbl
 
 Reporting Security Issues
 *************************
 
 Please do not report security issues in public, and email security@axim.org instead.
 
-.. |license-badge| image:: https://img.shields.io/github/license/openedx/frontend-template-application.svg
-    :target: https://github.com/openedx/frontend-template-application/blob/main/LICENSE
+.. |license-badge| image:: https://img.shields.io/github/license/openedx/frontend-app-testbl.svg
+    :target: https://github.com/openedx/frontend-app-testbl/blob/main/LICENSE
     :alt: License
 
 .. |status-badge| image:: https://img.shields.io/badge/Status-Maintained-brightgreen
 
-.. |ci-badge| image:: https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml/badge.svg
-    :target: https://github.com/openedx/frontend-template-application/actions/workflows/ci.yml
+.. |ci-badge| image:: https://github.com/openedx/frontend-app-testbl/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/openedx/frontend-app-testbl/actions/workflows/ci.yml
     :alt: Continuous Integration
 
-.. |codecov-badge| image:: https://codecov.io/github/openedx/frontend-template-application/coverage.svg?branch=main
-    :target: https://codecov.io/github/openedx/frontend-template-application?branch=main
+.. |codecov-badge| image:: https://codecov.io/github/openedx/frontend-app-testbl/coverage.svg?branch=main
+    :target: https://codecov.io/github/openedx/frontend-app-testbl?branch=main
     :alt: Codecov
