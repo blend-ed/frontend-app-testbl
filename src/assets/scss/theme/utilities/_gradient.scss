@@ -1,0 +1,53 @@
+// Background  Gradient
+
+// light gradient
+
+.bg-light-gradient {
+  background: rgba(221, 218, 255, 0.2);
+  background: linear-gradient(180deg, rgba(221, 218, 255, 0.2) 0%, rgba(255, 255, 255, 0) 80%);
+  background: -webkit-linear-gradient(180deg, rgba(221, 218, 255, 0.2) 0%, rgba(255, 255, 255, 0) 80%);
+  background: -moz-linear-gradient(180deg, rgba(221, 218, 255, 0.2) 0%, rgba(255, 255, 255, 0) 80%);
+}
+
+// light gradient bottom
+
+.bg-light-gradient-bottom {
+  background: rgba(221, 218, 255, 0.3);
+  background: linear-gradient(360deg, rgba(221, 218, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+  background: -webkit-linear-gradient(360deg, rgba(221, 218, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+  background: -moz-linear-gradient(360deg, rgba(221, 218, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+}
+
+// light gradient top
+
+.bg-light-gradient-top {
+  background: rgba(221, 218, 255, 0.3);
+  background: linear-gradient(180deg, rgba(221, 218, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+  background: -webkit-linear-gradient(180deg, rgba(221, 218, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+  background: -moz-linear-gradient(180deg, rgba(221, 218, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+}
+
+// bg mix gradient
+.bg-gradient-mix-shade{
+  background: linear-gradient(270.06deg, $secondary 0.05%, $primary 54.16%, $tertiary 99.95%);
+}
+
+.bg-gradient-mix-shade-dark{
+  background: linear-gradient(270.06deg, $secondary 0.05%, $dark-primary 54.16%, $dark-tertiary 99.95%);
+}
+
+.bg-gradient-gray{
+  background: linear-gradient(0deg, $light 0%, $white 100%);
+}
+
+.bg-colors-gradient {
+  background: linear-gradient(-10deg, #d0bbf5 0%, #aeeafd 60%, #ffffff 100%)
+}
+
+.bg-gradient-blended {
+  background: linear-gradient(270.06deg, $secondary 50.05%, $tertiary 99.95%)
+}
+
+.progress-gradient{
+  background: linear-gradient(to right, $tertiary, $dark-tertiary)
+}

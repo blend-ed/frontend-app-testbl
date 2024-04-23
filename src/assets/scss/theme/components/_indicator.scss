@@ -1,0 +1,28 @@
+// Indicator
+
+.indicator {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    right: -0.2rem;
+    top: -0.2rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
+    border: 2px solid var(--#{$prefix}white);
+  }
+}
+
+.indicator-xs.indicator {
+  &::before {
+    height: 0.6rem;
+    width: 0.6rem;
+  }
+}
+
+.indicator-primary.indicator {
+  &::before {
+    background-color: var(--#{$prefix}primary);
+  }
+}

@@ -1,0 +1,48 @@
+//
+// Extended from bootstrap
+
+// Text Truncate
+@mixin text-truncate-line() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+}
+
+.text-truncate-line {
+  @include text-truncate-line();
+}
+
+
+@mixin text-truncate-line-2() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 2);
+  -webkit-box-orient: vertical;
+}
+
+.text-truncate-line-2 {
+  @include text-truncate-line-2();
+}
+
+@mixin text-truncate-line-3() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 3);
+  -webkit-box-orient: vertical;
+}
+
+.text-truncate-line-3 {
+  @include text-truncate-line-3();
+}
+
+.text-truncate-line-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 4);
+  -webkit-box-orient: vertical;
+}

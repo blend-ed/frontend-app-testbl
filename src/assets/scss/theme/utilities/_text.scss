@@ -1,0 +1,102 @@
+//
+// Extended from bootstrap
+//
+// Text scss
+
+// Weight and italics
+
+// Text Inherit
+.text-inherit {
+	color: var(--#{$prefix}gray-800);
+}
+
+// Muted / body hover
+a {
+	&.text-body {
+		&:hover {
+			color: var(--#{$prefix}primary) !important;
+		}
+	}
+	&.text-muted {
+		&:hover {
+			color: var(--#{$prefix}primary) !important;
+		}
+	}
+}
+
+// Primary hover
+a:hover .text-primary-hover {
+	color: var(--#{$prefix}primary) !important;
+}
+
+// disableClick
+.disableClick {
+	pointer-events: none;
+}
+
+.text-inverse {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+.text-inverse-gray {
+	-webkit-filter: brightness(0) opacity(.5) invert(1);
+	filter: brightness(0) opacity(.5) invert(1);
+}
+
+.text-inverse-dark {
+	-webkit-filter: brightness(2) invert(1);
+	filter: brightness(2) invert(1);
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.text-gradient {
+	background: linear-gradient(to right, $tertiary 0%, $secondary 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient-25 {
+	background: linear-gradient(to right, $tertiary 10%, $secondary 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient-50 {
+	background: linear-gradient(to right, $tertiary 40%, $secondary 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient-inverse {
+	background: linear-gradient(to right, $secondary 0%, $tertiary 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient-inverse-25 {
+	background: linear-gradient(to right, $secondary 20%, $tertiary 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient-inverse-50 {
+	background: linear-gradient(to right, $secondary 40%, $tertiary 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-gradient-mix {
+	background: linear-gradient(to left, $secondary 0.05%, $primary 54.16%, $tertiary 99.95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-sp {
+	background: #ffffff;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

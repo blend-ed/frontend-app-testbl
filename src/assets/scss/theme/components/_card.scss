@@ -1,0 +1,148 @@
+//
+// Extend from bootstrap
+//
+
+// Card
+
+.card {
+    border: 0rem;
+    box-shadow: $box-shadow-sm;
+}
+
+.discover-lg {
+  width: calc(100vw - 18.75rem);
+}
+
+.is-sticky-2 {
+    position: fixed;
+    display: block;
+    border-radius: 0px;
+    top: 0;
+    width: 100%;
+    padding-right: 14rem;
+    z-index: 999;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.is-sticky-nav {
+    position: fixed;
+    display: block;
+    border-radius: 20px;
+    top: 15;
+
+    width: 100%;
+    // padding-right: 14rem;
+    z-index: 999;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+@media (max-width: 768px) {
+    .is-sticky-sm {
+        position: fixed;
+        border-radius: 0px;
+        bottom: 4.4rem;
+        width: 100%;
+        z-index: 1;
+        animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    }
+
+}
+
+.is-sticky {
+    position: fixed;
+    display: block;
+    border-radius: 0px;
+    top: 0px;
+    right: 0px;
+    left: 200px;
+    // width: 83rem;
+    padding-right: 14rem;
+    z-index: 999;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+
+// Img left rounded for card
+.img-left-rounded {
+    border-radius: 0.5rem 0 0 0.5rem;
+    // @media (max-width: 768px) {
+    //   border-radius: 0.5rem 0.5rem 0 0;
+    // }
+    // @media (min-width: 768px) and (max-width: 991.98px) {
+    //   border-radius: 0.5rem 0.5rem 0 0; //0.5rem 0.5rem 0 0;
+    // }
+}
+
+
+// Card header height
+.card-header-height {
+    height: 3.75rem;
+}
+
+
+
+// Card hover
+.card-hover {
+    transition: box-shadow 0.25s ease;
+
+    &:hover,
+    &:focus,
+    &.active {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    }
+}
+
+
+
+// Accordion
+.accordion {
+    >.card {
+        >.card-header {
+            margin-bottom: 0rem;
+        }
+    }
+}
+
+
+// card img size
+.card-img-size-600 {
+    width: 100%;
+
+    @media (min-width: 990px) {
+        width: 600px;
+    }
+}
+
+
+// card bordered
+.card-bordered {
+    border: 1px solid var(--#{$prefix}gray-200);
+    box-shadow: none;
+}
+
+.card-dashed-hover {
+    border-style: dashed !important;
+    transition: 0.5s ease;
+
+    &:hover {
+        border: 2px dashed var(--#{$prefix}primary) !important;
+    }
+}
+
+.card-hover-with-icon {
+    transition: box-shadow 0.25s ease;
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &.active {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+        border-top-color: var(--#{$prefix}primary) !important;
+        transition: ease 1s;
+
+        .card-icon {
+            background-color: var(--#{$prefix}light-primary) !important;
+            color: var(--#{$prefix}primary) !important;
+        }
+    }
+}

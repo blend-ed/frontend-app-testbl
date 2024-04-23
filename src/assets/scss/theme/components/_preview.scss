@@ -1,0 +1,31 @@
+.mobile-screen {
+    // background: url('path-to-mobile-image') no-repeat center;
+    background-size: contain;
+    width: 200px;
+    height: 400px;
+    position: relative;
+}
+
+.mobile-screen img {
+    position: absolute;
+    top: 10%; /* adjust these values to position the image correctly */
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.laptop-screen {
+    // background: url('path-to-laptop-image') no-repeat center;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.laptop-screen img {
+    position: absolute;
+    top: 10%; /* adjust these values to position the image correctly */
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
